@@ -68,8 +68,10 @@ p{
     rgba(0, 100, 0, 0.75), black 120%
   ); */
   color:  green;
+  /* color: white; */
   font: 1rem Inconsolata, monospace;
   text-shadow: 0 0 15px rgba(2, 168, 2, 0.75);
+  /* text-shadow: 0 0 15px #C8C8C8; */
   font-size: 2em;
 }
 
@@ -134,4 +136,12 @@ button{
 @keyframes blinking {
 	0% {opacity: 1;}
 	100% {opacity: 0;}
+}
+
+button:active{
+  transform: scale(0.95);
+}
+
+button:hover{
+  cursor: pointer;
 }
